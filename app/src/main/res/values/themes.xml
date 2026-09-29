@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose 自己管主题，这里只放一个启动时的兜底样式，免得闪白 -->
+    <style name="Theme.MoneyTracker" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/startup_bg</item>
+    </style>
+</resources>

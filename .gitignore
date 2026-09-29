@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+captures/
+
+# 指向本机 SDK 路径的文件，不要提交
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.hprof
+
+# 打包产物
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# 签名文件，绝对不能提交
+*.keystore
+*.jks
+keystore.properties
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 测试用的比对样本，是从本机真实账本导出的，含真实商户名，绝不提交
+app/src/test/resources/hash-cases.txt
+app/src/test/resources/real-db.json
+
+# 编出来的 APK 副本
+apk/

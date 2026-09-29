@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 图标：一个记账本，封面上一道账目标记。矢量图，不用 PNG。 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 底色圆角方块 -->
+    <path
+        android:fillColor="#4A90D9"
+        android:pathData="M24,18 L84,18 A10,10 0 0 1 94,28 L94,80 A10,10 0 0 1 84,90 L24,90 A10,10 0 0 1 14,80 L14,28 A10,10 0 0 1 24,18 Z" />
+
+    <!-- 书脊 -->
+    <path
+        android:fillColor="#2E6DA8"
+        android:pathData="M14,28 A10,10 0 0 1 24,18 L34,18 L34,90 L24,90 A10,10 0 0 1 14,80 Z" />
+
+    <!-- 内页 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,30 L84,30 L84,78 L40,78 Z" />
+
+    <!-- 三条账目横线 -->
+    <path
+        android:fillColor="#7FB2E0"
+        android:pathData="M46,39 L78,39 L78,43 L46,43 Z" />
+    <path
+        android:fillColor="#7FB2E0"
+        android:pathData="M46,50 L70,50 L70,54 L46,54 Z" />
+    <path
+        android:fillColor="#7FB2E0"
+        android:pathData="M46,61 L74,61 L74,65 L46,65 Z" />
+</vector>
