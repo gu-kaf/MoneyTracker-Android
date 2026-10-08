@@ -3,7 +3,6 @@
 # 记账本 · 安卓版
 
 电脑版记账程序的手机版，两边共用同一种数据文件。
-（注意：纯 AI 软件）
 
 ![平台](https://img.shields.io/badge/平台-Android-3DDC84?logo=android&logoColor=white)
 ![语言](https://img.shields.io/badge/语言-Kotlin-7F52FF?logo=kotlin&logoColor=white)
